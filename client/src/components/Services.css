@@ -1,0 +1,52 @@
+.services-page {
+    background-image: url('./imgs/station.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: block;
+}
+
+.services-container {
+    display: block;
+    color: blue;
+    width: 720px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 17px #333;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: max-content;
+}
+
+.service-list-left {
+    width: 50%;
+    float: left;
+}
+
+.service-list-right {
+    width: 50%;
+    float: right;
+}
+
+/* .service-title-left {
+    display: flex;
+    padding-left: 10px;
+}
+
+.service-title-right {
+    display: flex;
+    padding-left: 82%; 
+    margin: auto;
+}
+
+.service-deets-left {
+    display: flex;
+}
+
+.service-deets-right {
+    display: flex;
+    padding-left: 75%; 
+    margin: auto;
+} */

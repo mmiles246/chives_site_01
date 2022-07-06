@@ -28,7 +28,7 @@ function NavBar () {
                         <Link to={'/'} className='nav-links' onClick={e => setClicked(false)}>Home</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to={'/'} className='nav-links' onClick={e => setClicked(false)} >Services</Link>
+                        <Link to={'/services'} className='nav-links' onClick={e => setClicked(false)} >Services</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to={'/'} className='nav-links' onClick={e => setClicked(false)}>Testimonials</Link>
@@ -39,7 +39,7 @@ function NavBar () {
                 </ul>
                 {/* {button && <Button buttonStyle='btn--outline'>Signup</Button>} */}
             </div>
-            {/* <Outlet/> */}
+            <Outlet/>
         </nav>
         
     )
