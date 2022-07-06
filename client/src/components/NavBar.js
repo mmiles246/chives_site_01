@@ -39,7 +39,7 @@ function NavBar () {
                 </ul>
                 {/* {button && <Button buttonStyle='btn--outline'>Signup</Button>} */}
             </div>
-            <Outlet/>
+            {/* <Outlet/> */}
         </nav>
         
     )

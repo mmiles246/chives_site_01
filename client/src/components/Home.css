@@ -1,6 +1,14 @@
-.home-page {
-    display: flexbox;
-    position:relative;
-    padding: auto;
-    
+/* .home-page {
+    display: flex;
+} */
+.carousel-item{
+    height: 100vh;
+}
+
+.carousel-item  img {
+    display: block;
+    max-height: 100%;
+    height: 100vh;
+    max-width: 100%;
+    width: 100%;
 }

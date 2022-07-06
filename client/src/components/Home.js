@@ -1,16 +1,19 @@
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css'
+import sinks from './imgs/sinks.png';
+import scissors from './imgs/scissors.png';
+import interior from './imgs/interior.png';
 
 function Home () {
 
     return (
         <div className='home-page'>
             <Carousel fade>
-                <Carousel.Item>
+                <Carousel.Item className='carousel-item'>
                     <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=First slide&bg=373940"
+                    src={sinks}
                     alt="First slide"
                     />
                     <Carousel.Caption>
@@ -18,10 +21,10 @@ function Home () {
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item className='carousel-item'>
                     <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
+                    src={scissors}
                     alt="Second slide"
                     />
 
@@ -30,10 +33,10 @@ function Home () {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item className='carousel-item'>
                     <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
+                    src={interior}
                     alt="Third slide"
                     />
 
