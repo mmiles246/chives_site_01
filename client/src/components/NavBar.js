@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
 import {useState} from 'react';
 import Button from './Button';
 import './NavBar.css';
@@ -39,7 +39,9 @@ function NavBar () {
                 </ul>
                 {/* {button && <Button buttonStyle='btn--outline'>Signup</Button>} */}
             </div>
+            <Outlet/>
         </nav>
+        
     )
 }
 
