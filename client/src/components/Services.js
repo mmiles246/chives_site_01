@@ -39,6 +39,15 @@ function Services () {
                     </div>
                 </div>
             </div>
+            <div className='policy-background'>
+                <div className='policy-container'>
+                    <h2>Appointment Policy</h2>
+                    <p>All appointments must be canceled within 24 hours of appointment time or you will be charged 100% of the ticketed appointment.</p>
+                    <br></br>
+                    <p>We reserve the right to cancel all apontments at any time at our of discrestion and of our own accord.</p>
+                </div>
+
+            </div>
         </div>
     )
 }

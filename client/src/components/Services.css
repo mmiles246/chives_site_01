@@ -29,6 +29,9 @@
     width: 50%;
     float: left;
     overflow: hidden;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .service-list-right {
@@ -40,20 +43,36 @@
 /* .service-title-left {
     display: flex;
     padding-left: 10px;
-}
+} */
 
-.service-title-right {
+/* .service-title-right {
     display: flex;
     padding-left: 82%; 
     margin: auto;
-}
+} */
 
 .service-deets-left {
-    display: flex;
+    list-style: none;
 }
 
 .service-deets-right {
-    display: flex;
-    padding-left: 75%; 
-    margin: auto;
-} */
+    list-style: none;
+    align-items: center;
+    align-content: center;
+}
+
+.policy-background {
+    margin-top: 44px;
+    margin: 44px 25%;
+    /* width: 75; */
+    align-items: center;
+    text-align: center;
+    background-image: url(./imgs/canvas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+
+.policy-container {
+    text-align: center;
+}
