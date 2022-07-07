@@ -31,7 +31,7 @@ function NavBar () {
                         <Link to={'/services'} className='nav-links' onClick={e => setClicked(false)} >Services</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to={'/'} className='nav-links' onClick={e => setClicked(false)}>Testimonials</Link>
+                        <Link to={'testomonials'} className='nav-links' onClick={e => setClicked(false)}>Testimonials</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to={'/'} className='nav-links' onClick={e => setClicked(false)}>Contact</Link>

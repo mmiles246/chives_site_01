@@ -1,0 +1,13 @@
+.testomonial-page {
+    background-color: #104547;
+    height: 100vh;
+}
+
+.testomonials-container {
+    width: 75%;
+    /* background-color: #104547; */
+}
+
+.testomonial-card {
+    color: #F7F7FF;
+}

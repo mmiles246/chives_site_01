@@ -7,6 +7,7 @@ import EnterSite from './components/EnterSite';
 import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Services from './components/Services';
+import Testimonials from './components/Testimonials';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/' element={<Home/>} />
             {/* <Route index element={<Home />} /> */}
             <Route path='services' element={<Services />} />
+            <Route path='testomonials' element={<Testimonials/>} />
         </Routes>
       </>
   );
