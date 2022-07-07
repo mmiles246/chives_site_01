@@ -6,7 +6,6 @@ function Services () {
         <div className='services-page'>
             <div >
                 <div className='services-banner'>
-                    <h1>Services</h1>
                 </div>
                 <div className='services-container'>
                     <div className='service-row'>

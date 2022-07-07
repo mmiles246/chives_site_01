@@ -12,7 +12,7 @@ function Footer () {
                 <i class="fa-regular fa-envelope fa-2xl"></i>
             </div>
             <div className='designer-tag'>
-                
+                Designed by Michael Miles
             </div>
         </div>
     )

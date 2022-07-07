@@ -1,21 +1,7 @@
-/* .services-page {
-    background-image: url('./imgs/station.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    display: block;
-} */
-
-/* .services-container {
-    color: #000000;
-    width: 720px;
-    margin: auto;
-    border-radius: 25px;
-    box-shadow: 0 0 17px #333;
-    text-align: center;
-    overflow: hidden;
-    background-image: url(./imgs/canvas.png);
-} */
+@font-face {
+    font-family: coldiac;
+    src: url(./fonts/Coldiac.ttf);
+}
 .services-container {
     background-color: #989572;
     height: fit-content;
@@ -40,12 +26,16 @@
     display: flex;
     align-items: baseline;
     border-bottom: 1px solid #F7F7FF;
+    /* color: #A9FFF7; */
+    color: #14110F;
+    font-family: 'coldiac';
 }
 
 .service-row h3 { 
     padding: 45px;
     font-size: 40px;
     width: 25%;
+    font-weight: 550;
     /* overflow: hidden; */
 
 }

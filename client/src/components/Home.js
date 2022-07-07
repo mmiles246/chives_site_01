@@ -10,9 +10,12 @@ import Bio from './Bio';
 function Home () {
 
     return (
-        <div>
+        <div className='home--primary'>
             <div className='home-page'>
-                <Carousel fade>
+                <div className='title'>
+                    <h1>Ash Hans Hair</h1>
+                </div>
+                <Carousel className='carousel' fade>
                     <Carousel.Item className='carousel-item'>
                         <img
                         className="d-block w-100"
@@ -20,8 +23,6 @@ function Home () {
                         alt="First slide"
                         />
                         <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className='carousel-item'>
@@ -30,10 +31,7 @@ function Home () {
                         src={scissors}
                         alt="Second slide"
                         />
-
                         <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className='carousel-item'>
@@ -42,10 +40,7 @@ function Home () {
                         src={interior}
                         alt="Third slide"
                         />
-
                         <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

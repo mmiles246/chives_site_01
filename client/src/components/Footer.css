@@ -5,6 +5,9 @@
     width: 100%;
     align-content: center;
     align-items: center;
+    overflow: hidden;
+    overflow-y: hidden;
+    font-family: 'coldiac';
 
 }
 
@@ -18,11 +21,13 @@
 
 .foot-icons {
     position: absolute;
+    align-items: center;
     align-self: center;
     vertical-align: middle;
     text-align: center;
+    margin: 48%;
     display: flex;
-    margin: 50%;
+    /* overflow: hidden; */
 }
 
 .fa-instagram {
@@ -36,4 +41,13 @@
     color: #F7F7FF;
     padding-left: 8px;
     float: right;
+}
+
+.designer-tag {
+    color: #F7F7FF;
+    align-content: center;
+    vertical-align: middle;
+    margin-left: 84%;
+    overflow: auto;
+
 }
