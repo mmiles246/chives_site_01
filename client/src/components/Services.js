@@ -3,7 +3,50 @@ import station from './imgs/station.png';
 
 function Services () {
     return (
-        <div className="services-page">
+        <div className='services-page'>
+            <div >
+                <div className='services-banner'>
+                    <h1>Services</h1>
+                </div>
+                <div className='services-container'>
+                    <div className='service-row'>
+                        <h3>Color</h3>
+                        <ul>
+                            <li>Color Service</li>
+                            <li>Color Service</li>
+                            <li>Color Service</li>
+                        </ul>
+                        <ul>
+                            <li>Color Service</li>
+                            <li>Color Service</li>
+                        </ul>
+                    </div>
+                    <div className='service-row'>
+                        <h3>Cut</h3>
+                        <ul>
+                            <li>Cut Service</li>
+                            <li>Cut Service</li>
+                            <li>Cut Service</li>
+                        </ul>
+                    </div>
+                    <div className='service-row'>
+                        <h3>Styling</h3>
+                        <ul>
+                            <li>Styling Service</li>
+                            <li>Styling Service</li>
+                            <li>Styling Service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Services;
+
+
+{/* <div className="services-page">
             <div className='services-background'>
                 <div className='services-container'>
                     <h1>Services</h1>
@@ -48,8 +91,4 @@ function Services () {
                 </div>
 
             </div>
-        </div>
-    )
-}
-
-export default Services;
+        </div> */}

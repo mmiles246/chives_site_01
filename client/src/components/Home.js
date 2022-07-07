@@ -5,6 +5,7 @@ import sinks from './imgs/sinks.png';
 import scissors from './imgs/scissors.png';
 import interior from './imgs/interior.png';
 import Footer from './Footer';
+import Bio from './Bio';
 
 function Home () {
 
@@ -49,6 +50,7 @@ function Home () {
                     </Carousel.Item>
                 </Carousel>
             </div>
+            <Bio />
             <Footer />
         </div>
     )

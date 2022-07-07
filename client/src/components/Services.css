@@ -1,31 +1,70 @@
-.services-page {
+/* .services-page {
     background-image: url('./imgs/station.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
     display: block;
-}
+} */
 
-.services-container {
-    /* display: block; */
-    color: blue;
+/* .services-container {
+    color: #000000;
     width: 720px;
     margin: auto;
     border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 17px #333;
     text-align: center;
     overflow: hidden;
     background-image: url(./imgs/canvas.png);
-    /* align-items: center; */
-    /* align-content: center; */
-    /* height: max-content; */
-}
-/* .services-background {
-    
 } */
+.services-container {
+    background-color: #989572;
+    height: fit-content;
+}
 
-.service-list-left {
+.services-banner {
+    background-image: url('./imgs/station.png');
+    background-position: center;
+    width: 100%;
+    display: block;
+    height: 50vh;
+}
+
+.services-banner h1 {
+    color: #F7F7FF;
+    text-align: center;
+    align-items: center;
+}
+
+.service-row {
+    /* overflow: hidden; */
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid #F7F7FF;
+}
+
+.service-row h3 { 
+    padding: 45px;
+    font-size: 40px;
+    width: 25%;
+    /* overflow: hidden; */
+
+}
+
+.service-row ul {
+    /* width: 33%; */
+    float: right;
+    /* overflow: hidden; */
+    list-style: none;
+}
+
+.service-row li {
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+}
+
+
+/* .service-list-left {
     width: 50%;
     float: left;
     overflow: hidden;
@@ -38,7 +77,7 @@
     width: 50%;
     float: right;
     overflow: hidden;
-}
+} */
 
 /* .service-title-left {
     display: flex;
@@ -51,7 +90,7 @@
     margin: auto;
 } */
 
-.service-deets-left {
+/* .service-deets-left {
     list-style: none;
 }
 
@@ -64,7 +103,6 @@
 .policy-background {
     margin-top: 44px;
     margin: 44px 25%;
-    /* width: 75; */
     align-items: center;
     text-align: center;
     background-image: url(./imgs/canvas.png);
@@ -75,4 +113,4 @@
 
 .policy-container {
     text-align: center;
-}
+} */

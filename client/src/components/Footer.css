@@ -3,8 +3,37 @@
     background-color: #2F2F2F;
     height: 100px;
     width: 100%;
+    align-content: center;
+    align-items: center;
+
 }
 
 .footer-deets {
     color: #F7F7FF;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.foot-icons {
+    position: absolute;
+    align-self: center;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    margin: 50%;
+}
+
+.fa-instagram {
+    color: #F7F7FF;
+    vertical-align: middle;
+    text-align: center;
+    float: left;
+}
+
+.fa-envelope {
+    color: #F7F7FF;
+    padding-left: 8px;
+    float: right;
 }
