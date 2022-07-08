@@ -8,8 +8,12 @@ function Footer () {
                 (555)-555-5555
             </div>
             <div className='foot-icons'>
-                <i class="fa-brands fa-instagram fa-2xl"></i>
-                <i class="fa-regular fa-envelope fa-2xl"></i>
+                <a href="https://www.instagram.com/ashhanz_/">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                </a>
+                <a href="mailto:ashley.hanson45@gmail.com">
+                    <i class="fa-regular fa-envelope fa-2xl"></i>
+                </a>
             </div>
             <div className='designer-tag'>
                 Designed by Michael Miles

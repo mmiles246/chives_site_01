@@ -46,8 +46,9 @@
 .designer-tag {
     color: #F7F7FF;
     align-content: center;
-    vertical-align: middle;
     margin-left: 84%;
     overflow: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 
 }

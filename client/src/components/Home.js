@@ -45,7 +45,7 @@ function Home () {
                     </Carousel.Item>
                 </Carousel>
             </div>
-            <Bio />
+            <Bio className='bio'/>
             <Footer />
         </div>
     )

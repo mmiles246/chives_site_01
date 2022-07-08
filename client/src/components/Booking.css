@@ -1,0 +1,36 @@
+.booking-container {
+    background-color: antiquewhite;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    font-family: 'coldiac';
+    font-weight: 300;
+}
+
+.booking-text {
+    width: fit-content;
+    margin: 0 30px 80px 0;
+    text-align: center;
+}
+
+.booking-text h1 {
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-decoration: underline;
+}
+
+.booking-text h4 {
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.app-policy {
+    width: auto;
+    margin: 0px 80px 80px;
+}
+
+.fine-print {
+
+}
